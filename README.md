@@ -1,4 +1,3 @@
 # openhab
-
-TODO: Enter the cookbook description here.
-
+====
+Install/Configures Openhab

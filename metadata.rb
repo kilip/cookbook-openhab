@@ -1,19 +1,12 @@
 name 'openhab'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
+maintainer 'Anthonius Munthi'
+maintainer_email 'me@itstoni.com'
+license 'MIT'
 description 'Installs/Configures openhab'
-version '0.1.0'
 chef_version '>= 14.0'
+issues_url 'https://github.com/kilip/cookbook-openhab/issues'
+source_url 'https://github.com/kilip/cookbook-openhab'
 
-# The `issues_url` points to the location where issues for this cookbook are
-# tracked.  A `View Issues` link will be displayed on this cookbook's page when
-# uploaded to a Supermarket.
-#
-# issues_url 'https://github.com/<insert_org_here>/openhab/issues'
+version '0.1.0'
 
-# The `source_url` points to the development repository for this cookbook.  A
-# `View Source` link will be displayed on this cookbook's page when uploaded to
-# a Supermarket.
-#
-# source_url 'https://github.com/<insert_org_here>/openhab'
+supports 'ubuntu'
