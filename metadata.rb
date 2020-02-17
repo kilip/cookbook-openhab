@@ -7,6 +7,6 @@ chef_version '>= 14.0'
 issues_url 'https://github.com/kilip/cookbook-openhab/issues'
 source_url 'https://github.com/kilip/cookbook-openhab'
 
-version '0.1.0'
+version '0.1.1'
 
 supports 'ubuntu'
