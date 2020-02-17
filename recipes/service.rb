@@ -34,7 +34,7 @@ unless node['openhab']['config_repository'].empty?
 end
 
 service 'openhab2' do
-  action :restart
+  action [:enable, :start]
 end
 
 chef_sleep 'waiting openhab to get started' do
