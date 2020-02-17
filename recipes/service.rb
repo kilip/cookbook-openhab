@@ -36,3 +36,7 @@ end
 service 'openhab2' do
   action :restart
 end
+
+chef_sleep 'waiting openhab to get started' do
+  seconds 10
+end
