@@ -34,5 +34,5 @@ unless node['openhab']['config_repository'].empty?
 end
 
 service 'openhab2' do
-  action :start
+  action :restart
 end
