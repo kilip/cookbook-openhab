@@ -26,7 +26,7 @@ describe 'openhab::service' do
       is_expected.to render_file(file)
         .with_content(/.*HTTP_PORT.+= 8080/)
         .with_content(/.*HTTPS_PORT.+= 8443/)
-        .with_content(/.*HTTP_ADDRESS.+= '0.0.0.0'/)
+        .with_content(/.*HTTP_ADDRESS.+= 0.0.0.0/)
     }
   end
 end
